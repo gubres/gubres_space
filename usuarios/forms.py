@@ -8,7 +8,7 @@ class LoginForms(forms.Form):
         widget=forms.TextInput(
             attrs={
                 "class":"form-control",
-                "placeholder": "Ex.: Gustavo Iago"
+                "placeholder": "Ex.: Gustavo"
             }
         )
     )
