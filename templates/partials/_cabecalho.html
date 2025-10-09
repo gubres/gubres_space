@@ -23,6 +23,7 @@
                     <a href="{% url 'cadastro' %}"><img src="{% static '/assets/ícones/1x/Novas - inativo.png' %}"> Cadastro </a>
                     {% if user.is_authenticated %}
                     <a href="{% url 'logout' %}"><img src="{% static '/assets/ícones/1x/Surpreenda-me - inativo.png' %}"> Logout</a>
+                    <a href="{% url 'nova_imagem' %}"><img src="{% static '/assets/ícones/1x/new-icon.png' %}"> Nova Imagem</a>
                     {% endif %}
                 </nav>
             </section>
